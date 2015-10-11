@@ -21,7 +21,7 @@ class UsersController < ApplicationController
   def show
     @user = User.find(params[:id]) # Query for the user with the id that is in params
   end
-
+#gooooooooooood
   private
 
   def user_params
